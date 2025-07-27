@@ -1,8 +1,15 @@
+using Microsoft.EntityFrameworkCore;
 using minimal_api.Dominio.DTOs;
+using minimal_api.infraestrutura.Db;
 
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+
+builder.Services.AddDbContext<DbContexto>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MinimalApiContext"));
+});
 
 app.MapGet("/", () => "Hello World!");
 
