@@ -165,3 +165,4 @@ C:\Users\Jay\Desktop\projects\minimal-api\bin\Debug\net9.0\Swashbuckle.AspNetCor
 C:\Users\Jay\Desktop\projects\minimal-api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Jay\Desktop\projects\minimal-api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Jay\Desktop\projects\minimal-api\obj\Debug\net9.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jay\Desktop\projects\minimal-api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
